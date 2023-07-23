@@ -16,5 +16,5 @@ jobs:
         host: ${{ secrets.HOST }} 
         user: ${{ secrets.USER }}
         password: ${{ secrets.PASS }}
-        localDir: ./frontend/dist
+        localDir: ./frontend
         remoteDir: public_html
