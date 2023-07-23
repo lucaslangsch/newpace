@@ -15,12 +15,13 @@ jobs:
       with:
         node-version: '16'
       
+    - name: Set up environment variables
+      run: echo "VITE_API_GKEY=${{ secrets.VITE_API_GKEY }}" >> $GITHUB_ENV
+
     - name: Build Project
-      env:
-        API_KEY: ${{ secrets.VITE_API_GKEY }}
       run: |
         npm install
-        API_KEY=${API_KEY} npm run build
+        npm run build
         
     - name: FTP Deploy Locaweb
       uses: locaweb/ftp-deploy@1.0.0
@@ -30,3 +31,4 @@ jobs:
         password: ${{ secrets.PASS }}
         localDir: ./dist/
         remoteDir: public_html
+        args: -P 21 -e "set ftp:ssl-allow false" --delete
