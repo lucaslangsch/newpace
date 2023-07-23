@@ -16,9 +16,11 @@ jobs:
         node-version: '16'
       
     - name: Build Project
+      env:
+        API_KEY: ${{ secrets.VITE_API_GKEY }}
       run: |
         npm install
-        npm run build
+        API_KEY=${API_KEY} npm run build
         
     - name: FTP Deploy Locaweb
       uses: locaweb/ftp-deploy@1.0.0
@@ -28,4 +30,3 @@ jobs:
         password: ${{ secrets.PASS }}
         localDir: ./dist/
         remoteDir: public_html
-        VITE_API_GKEY: ${{ secrets.VITE_API_GKEY }}
