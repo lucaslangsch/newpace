@@ -28,3 +28,4 @@ jobs:
         password: ${{ secrets.PASS }}
         localDir: ./dist/
         remoteDir: public_html
+        VITE_API_GKEY: ${{ secrets.VITE_API_GKEY }}
