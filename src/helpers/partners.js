@@ -9,6 +9,13 @@ import ethLogo from '../assets/ethLogo.png';
 
 const partners = [
   {
+    image: waveLogo,
+    description: 'Apaixonados pelo áudio, sabemos o quanto ele é fundamental nas nossas sensações e em nosso dia-a-dia. Isso nos motiva a criar produtos de alta qualidade que proporcionam uma experiência sonora única para clientes que buscam alta qualidade e eficiência.',
+    title: 'WaveOne',
+    site: 'https://waveone.com.br/',
+    instagram: 'https://www.instagram.com/waveone.ind/',
+  },
+  {
     image: bikeIradaLogo,
     description: 'Com mais de 40 anos de experiência como triatleta e amante da tecnologia esportiva, Rodrigo Souza traz sua expertise para lhe garantir o melhor equipamento para a sua performance no ciclismo e no triathlon.',
     title: 'Bike Irada',
@@ -21,20 +28,6 @@ const partners = [
     title: 'Binotti Performance',
     site: null,
     instagram: 'https://www.instagram.com/binotti.personalperformance/',
-  },
-  {
-    image: cardioLogo,
-    description: 'Especialista em Cardiologia e Eletrofisiologia pela Universidade de Sherbrooke, Canadá. Alia sua especialidade com a prática esportiva de Triathlon.',
-    title: 'Dr. Renata Forte Cardiologista',
-    site: null,
-    instagram: 'https://www.instagram.com/refortesetchepare/',
-  },
-  {
-    image: yasLogo,
-    description: 'Transformamos sonhos em realidade através de projetos arrojados e qualidade excepcional. Oferecemos soluções inovadoras e resultados impecáveis. Nossa paixão pela excelência se reflete em cada detalhe. Conte conosco para construir o seu futuro.',
-    title: 'Construtora YAS',
-    site: null,
-    instagram: 'https://www.instagram.com/yasconstrutora/',
   },
   {
     image: gabrielLogo,
@@ -58,11 +51,18 @@ const partners = [
     instagram: 'https://www.instagram.com/thalitapovoanutri/',
   },
   {
-    image: waveLogo,
-    description: 'Apaixonados pelo áudio, sabemos o quanto ele é fundamental nas nossas sensações e em nosso dia-a-dia. Isso nos motiva a criar produtos de alta qualidade que proporcionam uma experiência sonora única para clientes que buscam alta qualidade e eficiência.',
-    title: 'WaveOne',
-    site: 'https://waveone.com.br/',
-    instagram: 'https://www.instagram.com/waveone.ind/',
+    image: yasLogo,
+    description: 'Transformamos sonhos em realidade através de projetos arrojados e qualidade excepcional. Oferecemos soluções inovadoras e resultados impecáveis. Nossa paixão pela excelência se reflete em cada detalhe. Conte conosco para construir o seu futuro.',
+    title: 'Construtora YAS',
+    site: null,
+    instagram: 'https://www.instagram.com/yasconstrutora/',
+  },
+  {
+    image: cardioLogo,
+    description: 'Especialista em Cardiologia e Eletrofisiologia pela Universidade de Sherbrooke, Canadá. Alia sua especialidade com a prática esportiva de Triathlon.',
+    title: 'Dr. Renata Forte Cardiologista',
+    site: null,
+    instagram: 'https://www.instagram.com/refortesetchepare/',
   },
 ];
 
