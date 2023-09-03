@@ -45,6 +45,7 @@ function Header() {
           <Link to="/">INÍCIO</Link>
           <Link to="/planos" >PLANOS</Link>
           <Link to="/locais">LOCAIS DE TREINO</Link>
+          <Link to="/parceiros">PARCEIROS</Link>
           <a target="_blank" href="https://www.instagram.com/newpaceassessoria/" rel="me">
             {btnMenuActive === true ? <span>INSTAGRAM</span> : <AiOutlineInstagram />}
           </a>
