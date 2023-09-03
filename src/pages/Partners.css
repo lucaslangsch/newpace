@@ -7,3 +7,9 @@ section.module.parallax-5 {
 section.module.parallax-5 > h1 {
   margin-top: 450px;
 }
+
+@media (max-width: 800px) {
+  section.module.parallax-5 {
+    background-position: 50% 50%;
+  }
+}

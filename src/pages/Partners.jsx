@@ -17,7 +17,17 @@ class Partners extends Component {
               | Conheça nossas parcerias |
             </p>
           </section>
-          <CardPartners description={partners.wave.description} image={partners.wave.image} title={partners.wave.title} site={partners.wave.site} instagram={partners.wave.instagram}/>
+          <section className="grid-partners">
+            { partners.map((partner) => {
+              return <CardPartners
+                key={partner.title}
+                description={partner.description}
+                image={partner.image}
+                title={partner.title}
+                site={partner.site}
+                instagram={partner.instagram}/>
+            })}
+          </section>
         </main>
         <Footer />
       </>
