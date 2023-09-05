@@ -60,7 +60,7 @@ const partners = [
   {
     image: cardioLogo,
     description: 'Sou médica e especialista em Cardiologista pela SBC. Complementei meus estudos na área de Eletrofisiologia e Arritmias Cardíacas e fiz um aperfeiçoamento em Sherbrooke, Canadá. Amo esportes e alio a minha prática esportiva de triatlon no meu trabalho, incluindo avaliação a atletas e arritmias no esporte.',
-    title: 'Dr. Renata Forte Cardiologista',
+    title: 'Dr. Renata Fortes Etchepare',
     site: null,
     instagram: 'https://www.instagram.com/refortesetchepare/',
     aditional: 'CRM 12460 e RQE 13363',
