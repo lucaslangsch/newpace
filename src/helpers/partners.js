@@ -59,10 +59,11 @@ const partners = [
   },
   {
     image: cardioLogo,
-    description: 'Especialista em Cardiologia e Eletrofisiologia pela Universidade de Sherbrooke, Canadá. Alia sua especialidade com a prática esportiva de Triathlon.',
+    description: 'Sou médica e especialista em Cardiologista pela SBC. Complementei meus estudos na área de Eletrofisiologia e Arritmias Cardíacas e fiz um aperfeiçoamento em Sherbrooke, Canadá. Amo esportes e alio a minha prática esportiva de triatlon no meu trabalho, incluindo avaliação a atletas e arritmias no esporte.',
     title: 'Dr. Renata Forte Cardiologista',
     site: null,
     instagram: 'https://www.instagram.com/refortesetchepare/',
+    aditional: 'CRM 12460 e RQE 13363',
   },
 ];
 

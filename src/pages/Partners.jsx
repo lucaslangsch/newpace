@@ -25,7 +25,8 @@ class Partners extends Component {
                 image={partner.image}
                 title={partner.title}
                 site={partner.site}
-                instagram={partner.instagram}/>
+                instagram={partner.instagram}
+                aditional={partner.aditional}/>
             })}
           </section>
         </main>
