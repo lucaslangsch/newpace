@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './CardDepo.css';
 import Slider from 'react-slick';
-import depo1 from '../assets/run_14.jpeg';
-import depo2 from '../assets/run_13.jpeg';
-import depo3 from '../assets/run_16.png';
+import depo1 from '../assets/run_14-compressed.jpg';
+import depo2 from '../assets/run_13-compressed.jpg';
+import depo3 from '../assets/run_16-compressed.jpg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Arrow from './ArrowCard';

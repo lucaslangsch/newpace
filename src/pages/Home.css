@@ -48,7 +48,7 @@ section.module.parallax:after {
 }
 
 section.module.parallax-1 {
-  background-image: url('../assets/geral_01.jpg');
+  background-image: url('../assets/geral_01-compressed.jpg');
   background-position: 70% 50%;
 }
 
@@ -59,7 +59,7 @@ section.module.parallax-1 img{
 }
 
 section.module.parallax-2 {
-  background-image: url('../assets/bike_03.jpg');
+  background-image: url('../assets/bike_03.webp');
   box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.801);
   background-position: 70% 50%;
 }

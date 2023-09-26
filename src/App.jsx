@@ -5,7 +5,8 @@ import Home from './pages/Home';
 import Plans from './pages/Plans';
 import Locality from './pages/Locality';
 import Partners from './pages/Partners';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 
 const TRACKING_ID = "G-C2E59CF5GX";
@@ -15,8 +16,8 @@ function App() {
  const location = useLocation().pathname;
 
   useEffect(() => {
-    ReactGA.pageview(location);
-  }, []);
+    ReactGA.send({ hitType: "pageview", page: location, title: location });
+  }, [location]);
   
   return (
     <Switch>

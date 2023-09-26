@@ -1,12 +1,23 @@
 import { Component } from 'react';
+import ReactGA from "react-ga4";
+
 
 class PlanButton extends Component {
+event = () => {
+  ReactGA.event({
+    category: "your category",
+    action: "your action",
+    label: "your label", // optional
+  });
+  window.location.href = this.props.time.link
+}
+
   render() {
     const { time } = this.props;
 
     if (time.plan === 'PLANO TRIMESTRAL') {
       return (
-        <button onClick={ () => {window.location.href = time.link} }>
+        <button onClick={ () => {this.event()} }>
           <span className="smal-font">equivale mensal</span>
           <br />
           {time.equivalent}
@@ -23,7 +34,7 @@ class PlanButton extends Component {
     }
 
     return (
-      <button onClick={ () => {window.location.href = time.link} }>
+      <button onClick={ () => {this.event()} }>
         {time.value}
         <br />
         {time.plan}

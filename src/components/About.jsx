@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import balta from '../assets/balta_01.png';
+import balta from '../assets/balta_01.webp';
 import './About.css';
 
 class About extends Component {
@@ -20,7 +20,7 @@ class About extends Component {
           </div>
         </div>
         <div className="container-about-balta">
-          <img src={ balta } alt="" />
+          <img src={ balta } alt="Baltazar" loading="lazy" />
           <div className="about-description">
             <h2>Rodrigo Baltazar</h2>
             <br />
