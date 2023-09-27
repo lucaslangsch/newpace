@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import logoNewpace from '../assets/logo_newpace.png';
+import logoNewpace from '../assets/logo_newpace-compressed.png';
 import Header from '../components/Header';
 import About from '../components/About';
 import './Home.css';
