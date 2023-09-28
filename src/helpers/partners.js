@@ -1,11 +1,11 @@
-import waveLogo from '../assets/waveLogo.png';
-import yasLogo from '../assets/yasLogo.png';
-import gabrielLogo from '../assets/gabrielLogo.png';
-import binotiLogo from '../assets/binotiLogo.png';
-import thalitaLogo from '../assets/thalitaLogo.png';
-import cardioLogo from '../assets/cardioLogo.png';
-import bikeIradaLogo from '../assets/bikeIradaLogo.png';
-import ethLogo from '../assets/ethLogo.png';
+import waveLogo from '../assets/waveLogo.jpg';
+import yasLogo from '../assets/yasLogo.jpg';
+import gabrielLogo from '../assets/gabrielLogo.jpg';
+import binotiLogo from '../assets/binotiLogo.jpg';
+import thalitaLogo from '../assets/thalitaLogo.jpg';
+import cardioLogo from '../assets/cardioLogo.jpg';
+import bikeIradaLogo from '../assets/bikeIradaLogo.jpg';
+import ethLogo from '../assets/ethLogo.jpg';
 
 const partners = [
   {
